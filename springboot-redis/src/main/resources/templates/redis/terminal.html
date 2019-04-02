@@ -1,0 +1,26 @@
+<style>
+    textarea,input,button{outline:none}.window-button,.window .buttons .closes,.window .buttons .minimize,.window .buttons .maximize{padding:0;margin:0;margin-right:6px;width:12px;height:12px;background-color:gainsboro;border:1px solid rgba(0,0,0,0);border-radius:6px;color:rgba(0,0,0,0.5)}.window{width:100%}.window .handle{height:38px;background:#f9f9f9;border:1px solid #eee;border-top-left-radius:3px;border-top-right-radius:3px;color:rgba(0,0,0,0.7);font-family:'consolas';font-size:13px;line-height:38px;text-align:center}.window .buttons{position:absolute;float:left;margin:0 8px}.window .buttons .closes{background-color:#fc625d}.window .buttons .minimize{background-color:#fdbc40}.window .buttons .maximize{background-color:#35cd4b}.window .terminal{padding:4px;background-color:black;opacity:0.7;height:575px;color:white;font-family:'consolas';font-weight:200;font-size:13px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;border-bottom-left-radius:3px;border-bottom-right-radius:3px;border-top-left-radius:1px;border-top-right-radius:1px;overflow-y:scroll}.window .terminal::after{content:"|";animation:blink 1.25s steps(1) infinite}.prompt{color:#bde371}.path{color:#5ed7ff}@keyframes blink{50%{color:transparent}}@keyframes bounceIn{0%{transform:translateY(-1000px)}60%{transform:translateY (200px)}100%{transform:translateY (0px)}}.kw_a{color:#E6DB74}.kw_b{color:#bde371}
+</style>
+<div class="card">
+    <div class="card-header"></div>
+    <div class="card-block">
+        <div class="container">
+            <div class="window">
+                <div class="handle">
+                    <div class="buttons">
+                        <button class="closes"></button>
+                        <button class="minimize"></button>
+                        <button class="maximize"></button>
+                    </div>
+                    <span class="title"></span>
+                </div>
+                <div class="terminal"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script data-th-inline="javascript">
+    var osName = [[${osName}]];
+</script>
+<script data-th-src="@{/lib/jquery.min.js}"></script>
+<script data-th-src="@{/js/terminal.js}"></script>

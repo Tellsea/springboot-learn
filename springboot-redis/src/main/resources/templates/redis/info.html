@@ -1,0 +1,18 @@
+<link rel="stylesheet" data-th-href="@{/css/info.css}">
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title" style="padding:1rem 0">Redis 详细信息：</h2>
+    </div>
+    <div class="card-block">
+        <table class="table table-condensed table-hover"
+               style="word-break: break-all; word-wrap: break-word;">
+            <tbody>
+            <tr th:each="il:${infoList}">
+                <td style="width:30%;font-weight:bold">[[${il.key}]]</td>
+                <td style="width:40%">[[${il.description }]]</td>
+                <td style="width:30%">[[${il.value}]]</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

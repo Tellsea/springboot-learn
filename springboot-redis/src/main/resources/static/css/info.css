@@ -1,0 +1,60 @@
+.card {
+    border: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.card-header:first-child {
+    border-radius: 2px 2px 0 0;
+}
+.card-header {
+    position: relative;
+    padding: 1rem 2.1rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-bottom: 2rem;
+}
+.card-header + .card-block {
+    padding-top: 0;
+}
+.card-block {
+    flex: 1 1 auto;
+    padding: 1.7rem 2.1rem;
+    padding-top: 1.7rem;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+tr {
+    border-top: 1px solid #eee;
+    font-size: 1rem;
+}
+.table:not(.table-bordered) > thead:first-child th, .table:not(.table-bordered) > thead:first-child td, .table:not(.table-bordered) > tbody:first-child th, .table:not(.table-bordered) > tbody:first-child td {
+    border-top: 0;
+}
+.table th, .table td {
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 1rem 1.5rem;
+    vertical-align: top;
+    border-top: 1px solid #f2f2f2;
+}
+
+

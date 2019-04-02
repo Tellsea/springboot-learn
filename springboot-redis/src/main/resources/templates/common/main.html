@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/common-css"></div>
+<div th:replace="common/header"></div>
+<div th:replace="common/side"></div>
+
+<section class="content">
+    <header class="content-title">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">主页</li>
+        </ol>
+    </header>
+    <div class="main-content">
+        <iframe src="/index" width="100%" height="100%" name="iframe" frameborder="0" style="height: 100vh;"></iframe>
+    </div>
+</section>
+
+</body>
+</html>

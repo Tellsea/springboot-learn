@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+<!-- 取值 -->
+<h1 th:text="${msg}">大家好</h1>
+<!-- 取对象 -->
+<h1>
+    欢迎您：<span th:text="${user.name}">请登录</span>
+</h1>
+<h2>
+    <p>Name: <span th:text="${user.name}">Jack</span>.</p>
+    <p>Age: <span th:text="${user.age}">21</span>.</p>
+    <p>friend: <span th:text="${user.friend.name}">Rose</span>.</p>
+</h2>
+<h2 th:object="${user}">
+    <p>Name: <span th:text="*{name}">Jack</span>.</p>
+    <p>Age: <span th:text="*{age}">21</span>.</p>
+    <p>friend: <span th:text="*{friend.name}">Rose</span>.</p>
+</h2>
+<!-- 方法 -->
+<h2 th:object="${user}">
+    <p>FirstName: <span th:text="*{name.split(' ')[0]}">Jack</span>.</p>
+    <p>LastName: <span th:text="*{name.split(' ')[1]}">Li</span>.</p>
+</h2>
+<p>
+    今天是: <span th:text="${#dates.format(today,'yyyy-MM-dd')}">2018-04-25</span>
+</p>
+<!-- 符串常量值 -->
+<p>
+    你正在观看 <span th:text="'thymeleaf'">template</span> 的字符串常量值.
+</p>
+<!-- 数字字面值 -->
+<p>今年是 <span th:text="2018">1900</span>.</p>
+<p>两年后将会是 <span th:text="2018 + 2">1902</span>.</p>
+<!-- 布尔字面值 -->
+<div th:if="true">
+    你填的是true
+</div>
+<!-- 拼接 -->
+<span th:text="'欢迎您:' + ${user.name} + '!'"></span>
+<!-- 简化拼接 -->
+<span th:text="|欢迎您:${user.name}|"></span>
+<!-- 运算 -->
+<!-- 算术运算 -->
+<span th:text="${user.age}"></span>
+<span th:text="${user.age}%2 == 0"></span>
+<!--比较运算-->
+<span th:text="${user.age} > 10 ? '男':'女'"></span>
+<!--当前面的表达式值为null时，就会使用后面的默认值-->
+<span th:text="${user.name} ?: '二狗'"></span>
+<!-- 循环 -->
+<tr th:each="user : ${users}">
+    <td th:text="${user.name}">Onions</td>
+    <td th:text="${user.age}">2.41</td>
+</tr>
+<!-- 循环获得对象状态 -->
+<tr th:each="user,stat : ${users}">
+    <td th:text="${stat.count}"></td>
+    <td th:text="${user.name}">Onions</td>
+    <td th:text="${user.age}">2.41</td>
+</tr>
+<!-- 逻辑判断 -->
+<span th:if="${user.age} < 24">小鲜肉</span>
+<!--分支控制switch-->
+<div th:switch="${user.role}">
+    <p th:case="'admin'">用户是管理员</p>
+    <p th:case="'manager'">用户是经理</p>
+    <p th:case="*">用户是别的玩意</p>
+</div>
+</body>
+<script th:inline="javascript">
+    const user = /*[[${user}]]*/ {};
+    const age = /*[[${user.age}]]*/ 20;
+    console.log(user);
+    console.log(age)
+</script>
+</html>
