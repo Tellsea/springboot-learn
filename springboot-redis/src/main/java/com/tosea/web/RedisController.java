@@ -1,4 +1,4 @@
-package com.tosea.controller;
+package com.tosea.web;
 
 import com.tosea.dto.RedisInfo;
 import com.tosea.service.RedisService;

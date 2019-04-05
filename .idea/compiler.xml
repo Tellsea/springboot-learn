@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-redis" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-shiro" />
+        <module name="springboot-thymeleaf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-thymeleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

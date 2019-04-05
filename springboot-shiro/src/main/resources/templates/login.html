@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ToseaCoding</title>
+</head>
+<style type="text/css">
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        margin: 15px auto;
+    }
+</style>
+<body>
+
+<div style="width: 500px; margin: 200px auto; border: 1px solid #cccccc;">
+    <h2 style="color: red;" th:text="${message}">大家好</h2>
+    <form action="/login" method="post">
+        姓名: <input type="text" name="userName" value="admin" required /><br/>
+        密码: <input type="password" name="userPwd" value="123456" required/><br/>
+        <input type="submit" value="登 录"/>
+    </form>
+</div>
+</body>
+</html>
