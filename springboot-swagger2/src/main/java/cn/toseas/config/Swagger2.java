@@ -31,8 +31,7 @@ public class Swagger2 {
                 .description("description")
                 .termsOfServiceUrl("termsOfServiceUrl")
                 .version("1.0")
-                .contact(new Contact("Y.S.K", "http://ysk521.cn", "1176971130@qq.com"))
+                .contact(new Contact("Toseas", "https://github.com/Toseas", "3210054449@qq.com"))
                 .build();
     }
-
 }
