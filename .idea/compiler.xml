@@ -6,24 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-redis" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-shiro" />
+        <module name="springboot-global" />
+        <module name="springboot-swagger2" />
         <module name="springboot-thymeleaf" />
+        <module name="springboot-redis" />
+        <module name="springboot-shiro" />
+        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-global" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-swagger2" target="1.8" />
       <module name="springboot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-global" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-swagger2" options="-parameters" />
       <module name="springboot-thymeleaf" options="-parameters" />
     </option>
   </component>
