@@ -1,4 +1,4 @@
-package cn.tellsea.pojo;
+package cn.tellsea.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

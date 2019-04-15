@@ -1,6 +1,6 @@
 package cn.tellsea.service.impl;
 
-import cn.tellsea.pojo.User;
+import cn.tellsea.bean.User;
 import cn.tellsea.service.UserService;
 import cn.tellsea.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

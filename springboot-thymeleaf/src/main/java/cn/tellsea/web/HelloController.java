@@ -1,6 +1,6 @@
 package cn.tellsea.web;
 
-import cn.tellsea.pojo.User;
+import cn.tellsea.bean.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

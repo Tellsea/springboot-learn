@@ -2,6 +2,7 @@ package cn.tellsea.config;
 
 import cn.tellsea.realm.UserRealm;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
@@ -69,7 +70,29 @@ public class ShiroConfiguration {
     @Bean
     public Realm getUserRealm() {
         UserRealm userRealm = new UserRealm();
+        userRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         return userRealm;
+    }
+
+    /**
+     * HashedCredentialsMatcher，这个类是为了对密码进行编码的，
+     * 防止密码在数据库里明码保存，当然在登陆认证的时候，
+     * 这个类也负责对form里输入的密码进行编码。
+     */
+    /**
+     * 凭证匹配器
+     * （由于我们的密码校验交给Shiro的SimpleAuthenticationInfo进行处理了
+     * 所以我们需要修改下doGetAuthenticationInfo中的代码;
+     * ）
+     *
+     * @return
+     */
+    @Bean
+    public HashedCredentialsMatcher hashedCredentialsMatcher() {
+        HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
+        hashedCredentialsMatcher.setHashAlgorithmName("MD5");
+        hashedCredentialsMatcher.setHashIterations(2);
+        return hashedCredentialsMatcher;
     }
 
     /**

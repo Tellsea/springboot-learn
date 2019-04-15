@@ -1,6 +1,6 @@
 package cn.tellsea;
 
-import cn.tellsea.pojo.User;
+import cn.tellsea.bean.User;
 import cn.tellsea.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

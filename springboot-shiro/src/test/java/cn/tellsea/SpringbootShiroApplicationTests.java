@@ -20,13 +20,10 @@ public class SpringbootShiroApplicationTests {
     private UserService userService;
 
     @Test
-    public void user() {
-        System.out.println(userService.findByUserName("admin"));
-    }
-
-    @Test
-    public void test() {
-        System.out.println(new Md5Hash("123456", null, 1));
+    public void md5() {
+        String password = "123456";
+        String salt = "sdfnegaf7gafj3nfdsfdsj9";
+        System.out.println(new Md5Hash(password, salt, 2));
     }
 
 }

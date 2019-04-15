@@ -3,7 +3,7 @@ package cn.tellsea.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import cn.tellsea.mapper.UserMapper;
-import cn.tellsea.pojo.User;
+import cn.tellsea.bean.User;
 import cn.tellsea.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
