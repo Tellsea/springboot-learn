@@ -14,13 +14,13 @@ public class TestController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/")
+    @GetMapping("get")
     @SystemControllerLog(description = "测试Get日志打印")
-    public String index() {
+    public String get() {
         return "测试Get日志打印";
     }
 
-    @PostMapping("user")
+    @PostMapping("post")
     @SystemControllerLog(description = "测试POST日志打印")
     public String post(@RequestParam("username") String username) {
         return "测试POST日志打印, 参数为：" + username;
