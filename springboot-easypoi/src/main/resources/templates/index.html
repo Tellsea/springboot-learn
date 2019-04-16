@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>springboot-easypoi</title>
+</head>
+<body>
+<h1>导出Excel</h1>
+<a href="/exportExcel">导出Excel</a>
+<h1>导入Excel</h1>
+<ul>
+    <li>post接口：/importExcel</li>
+    <li>上传的文件格式为xls、xlsx</li>
+    <li>列名和实体类上的@Excel(name = "姓名")相同，否则为空</li>
+    <li>测试方法：可以直接把刚导出的Excel的id列删除，然后上传即可测试</li>
+</ul>
+</body>
+</html>

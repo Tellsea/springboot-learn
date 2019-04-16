@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: item-service
   datasource:
     url: jdbc:mysql://localhost:3306/springboot-mybatis
     username: root
