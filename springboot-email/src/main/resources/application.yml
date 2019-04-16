@@ -1,0 +1,10 @@
+# JavaMailSender 邮件发送的配置
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 3210054449@qq.com
+    password: #######
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+# host：发送邮件的服务器，QQ邮箱是：smtp.qq.com，163邮箱是：smtp.163.com
+# 密码是授权码，不是QQ密码，QQ邮箱-->设置-->POP3/SMTP服务-->开启服务-->生成授权码
