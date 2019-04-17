@@ -28,6 +28,10 @@ QQ群：957406675
 # springboot 之花里胡哨小海绵
 github：https://github.com/Tellsea/springboot-learn
 
+|模块名称| 相关功能 |
+|--|--|
+|  springboot-actuator |基于actuator执行器实现应用监控  |
+
 - springboot-actuator 基于actuator执行器实现应用监控
  - springboot-aop-log 基于AspectJ搭建日志管理系统
  - springboot-easypoi 基于Easypoi实现导出和导入Excel数据表
