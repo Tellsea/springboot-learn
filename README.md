@@ -1,4 +1,4 @@
-## springboot-learn 介绍
+## springboot-learn 小海绵系列
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
@@ -15,6 +15,8 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 数据库：MySQL 5.7
 
 ## 注意事项
+
+每次学习前请先使用git更新项目，避免产生只是新旧代码问题。
 
 一些工程的测试方法在springboot的测试类中，比如：mybatis的通用mapper，CRUD的方法在测试类中测试的。
 
