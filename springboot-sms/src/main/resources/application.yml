@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: 127.0.0.1
+tellsea:
+  sms:
+    accessKeyId: 换成自己的AccessKey ID
+    accessKeySecret: 换成自己的Access Key Secret
+    signName: 换成自己的Tellsea
+    verifyCodeTemplete: 换成自己的SMS_163720281
