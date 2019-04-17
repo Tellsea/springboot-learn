@@ -2,8 +2,6 @@
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
-springboot 与常用框架、中间件的整合案例，如：thymeleaf，redis，mybatis，springdata jpa，elasticsearch等框架、中间件。持续更新。。。
-
 ## 基础框架
 
 基础框架：springboot 2.1.3.RELEASE
@@ -15,6 +13,10 @@ springboot 与常用框架、中间件的整合案例，如：thymeleaf，redis�
 依赖工具：apache-maven-3.6.0
 
 数据库：MySQL 5.7
+
+##注意事项
+
+一些工程的测试方法在springboot的测试类中，比如：mybatis的通用mapper，CRUD的方法在测试类中测试的。
 
 ## 交流学习
 
