@@ -1,4 +1,4 @@
-## springboot-learn 小海绵系列
+## springboot 之花里胡哨小海绵
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
@@ -19,6 +19,28 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 每次学习前请先使用git更新项目，避免产生只是新旧代码问题。
 
 一些工程的测试方法在springboot的测试类中，比如：mybatis的通用mapper，CRUD的方法在测试类中测试的。
+
+## 模块简介
+
+|模块名称| 相关功能说明 |
+|:--|:--|
+|  springboot-actuator  |  基于actuator执行器实现应用监控  |
+|  springboot-actuator  |  基于actuator执行器实现应用监控  |
+|  springboot-aop-log  |  基于AspectJ搭建日志管理系统  |
+|  springboot-easypoi  |  基于Easypoi实现导出和导入Excel数据表  |
+|  springboot-email  |  集成 Java 种发送邮件的方式  |
+|  springboot-global  |  搭建全局异常处理、公共返回类，事物回滚机制基础  |
+|  springboot-jpa  |  基于 spring data jpa 实现crud、分页查询、自定义方法查询  |
+|  springboot-mybatis  |  基于 mybatis 通用 Mapper 实现 crud、分页查询、自定义方法查询  |
+|  springboot-redis  |  redis 搭建缓存管理系统  |
+|  springboot-shiro  |  基于 shiro 实现授权登录  |
+|  springboot-sms  |  基于阿里云短信服务实现发送短信业务，以及redis实现验证码一分钟过期  |
+|  springboot-swagger2  |  使用swagger2搭建基于restful风格接口的API文档  |
+|  springboot-task  |  基于spring task实现任务调度（定时器）  |
+|  springboot-thymeleaf  |  springboot官方推荐使用thymeleaf作为模板引擎  |
+
+**我不管，看了就 Star**
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417200257956.jpg)
 
 ## 交流学习
 
