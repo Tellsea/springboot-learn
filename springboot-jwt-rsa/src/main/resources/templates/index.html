@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>springboot-jwt-rsa</title>
+</head>
+<body>
+<form action="/login" method="post" style="width: 500px; height: 300px; margin: 200px auto;">
+    用户名: <input type="text" name="username" value="tellsea" required/><br>
+    密码：<input type="password" name="password" value="tellsea" required/><br>
+    <button type="submit">login</button>
+    <br>
+    登录之后，浏览器中存在的ts_token, 然后访问 /verify 验证权限
+</form>
+</body>
+</html>
