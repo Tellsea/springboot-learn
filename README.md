@@ -10,6 +10,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |  springboot-actuator  |  基于actuator执行器实现应用监控  |
 |  springboot-aop-log  |  基于AspectJ搭建日志管理系统  |
 |  springboot-easypoi  |  基于Easypoi实现导出和导入Excel数据表  |
+|  springboot-ehcache  |  springboot整合高性能存框架EhCache  |
 |  springboot-email  |  集成 Java 种发送邮件的方式  |
 |  springboot-global  |  搭建全局异常处理、公共返回类，事物回滚机制基础  |
 |  springboot-jpa  |  基于 spring data jpa 实现crud、分页查询、自定义方法查询  |
