@@ -22,6 +22,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |  springboot-swagger2  |  使用swagger2搭建基于restful风格接口的API文档  |
 |  springboot-task  |  基于spring task实现任务调度（定时器）  |
 |  springboot-thymeleaf  |  springboot官方推荐使用thymeleaf作为模板引擎  |
+|  springboot-websocket  |  基于websocket实现群聊，点对点聊天  |
 
 ## 基础框架
 
