@@ -1,4 +1,4 @@
-# springboot整合websocket
+## springboot整合websocket
 websocket最伟大之处在于服务器和客户端可以在给定的时间范围内的任意时刻，相互推送信息。 浏览器和服务器只需要要做一个握手的动作，在建立连接之后，服务器可以主动传送数据给客户端，客户端也可以随时向服务器发送数据。
 
 实现功能：springboot整合websocket实现一对一，多对多聊天系统
