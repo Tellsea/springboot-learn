@@ -4,7 +4,7 @@ Spring Boot执行器(Actuator)提供安全端点，用于监视和管理Spring B
 
 ## 导入依赖
 
-```java
+```
 <!-- 执行器 -->
 <dependency>
     <groupId>org.springframework.boot</groupId>

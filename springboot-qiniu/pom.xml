@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.tellsea</groupId>
-    <artifactId>springboot-websocket</artifactId>
+    <artifactId>springboot-qiniu</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-websocket</name>
+    <name>springboot-qiniu</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,14 +22,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
 
         <dependency>
@@ -43,6 +35,12 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!--七牛云sdk-->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>[7.2.0, 7.2.99]</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
