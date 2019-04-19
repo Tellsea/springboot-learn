@@ -1,6 +1,10 @@
-## springboot配置七牛云
+## springboot配置七牛
+
+实现功能：从七牛云存储空间中上传文件，删除文件
 
 七牛开发者中心：https://developer.qiniu.com/
+
+**支持作者就Star Mua~**
 
 ## 依赖
 
