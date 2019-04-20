@@ -1,4 +1,4 @@
-## springboot 之花里胡哨小海绵
+## springboot 学习
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
