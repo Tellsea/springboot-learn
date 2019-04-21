@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: tellsea
+    password: 123456
+    virtual-host: /tellsea-host
