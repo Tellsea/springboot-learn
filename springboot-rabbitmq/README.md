@@ -15,8 +15,11 @@ RabbitMQ提供了6种消息模型，但是第6种其实是RPC，并不是MQ，�
 **相关软件的安装**
 
 [RabbitMQ官方教程](http://www.rabbitmq.com/getstarted.html)
+
 [RabbitMQ官网下载地址](http://www.rabbitmq.com/download.html)
+
 [Erlang下载地址](http://www.erlang.org/download.html)
+
 [RabbitMQ五种消息模型介绍](https://blog.csdn.net/qq_38762237/article/details/89416444)
 
 或者群文件夹下载，QQ群：957406675
