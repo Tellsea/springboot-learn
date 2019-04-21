@@ -8,14 +8,16 @@ RabbitMQ提供了6种消息模型，但是第6种其实是RPC，并不是MQ，�
  - 订阅模型-Topic：通配符，把消息交给符合`routing pattern`（路由模式） 的队列
 
 但是其实3、4、5这三种都属于订阅模型，只不过进行路由的方式不同。
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/201904211443428.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NzYyMjM3,size_16,color_FFFFFF,t_70)
+
 ## 准备工作
 **相关软件的安装**
 
-RabbitMQ官方教程：http://www.rabbitmq.com/getstarted.html
-RabbitMQ官网下载地址：http://www.rabbitmq.com/download.html
-Erlang下载地址：http://www.erlang.org/download.html
-RabbitMQ五种消息模型介绍：https://blog.csdn.net/qq_38762237/article/details/89416444
+[RabbitMQ官方教程](http://www.rabbitmq.com/getstarted.html)
+[RabbitMQ官网下载地址](http://www.rabbitmq.com/download.html)
+[Erlang下载地址](http://www.erlang.org/download.html)
+[RabbitMQ五种消息模型介绍](https://blog.csdn.net/qq_38762237/article/details/89416444)
 
 或者群文件夹下载，QQ群：957406675
 
