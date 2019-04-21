@@ -12,6 +12,9 @@ RabbitMQ提供了6种消息模型，但是第6种其实是RPC，并不是MQ，�
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/201904211443428.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NzYyMjM3,size_16,color_FFFFFF,t_70)
 
 ## 准备工作
+
+我已经安装好了RabbitMQ，Erlang，RabbitMQ图形界面插件。创建了用户：tellsea，和虚拟主机：/tellsea-host，并设置了使用权，下面给出下载地址。
+
 **相关软件的安装**
 
 [RabbitMQ官方教程](http://www.rabbitmq.com/getstarted.html)
