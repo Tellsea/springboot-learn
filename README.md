@@ -17,6 +17,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |  springboot-jwt-rsa  |  基于jwt与rsa分布式授权功能、注册、登录、鉴权  |
 |  springboot-mybatis  |  基于 mybatis 通用 Mapper 实现 crud、分页查询、自定义方法查询  |
 |  springboot-qiniu  |  七牛云存储空间中上传文件、删除文件  |
+|  springboot-quartz  |  SpringBoot集成Quartz动态定时任务  |
 |  springboot-rabbitmq  |  SpringBoot整合RabbitMQ实现五种消息模型  |
 |  springboot-redis  |  redis 搭建缓存管理系统  |
 |  springboot-shiro  |  基于 shiro 实现授权登录  |
