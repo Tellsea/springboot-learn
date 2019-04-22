@@ -128,7 +128,7 @@ public class ShiroConfiguration {
     }
 
     /**
-     * 负责org.apache.shiro.util.Initializable类型bean的生命周期的，初始化和销毁。
+     * 负责org.apache.shiro.utils.Initializable类型bean的生命周期的，初始化和销毁。
      */
     @Bean
     public static LifecycleBeanPostProcessor getLifecycleBeanPostProcessor() {
