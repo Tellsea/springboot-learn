@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class TestController {
+public class UserController {
 
     @Autowired
     private UserService userService;
@@ -22,7 +22,7 @@ public class TestController {
         return ResponseCode.success();
     }
 
-    // 使用通用mapper批量插入user，测试事物是否回滚
+    // service.impl报错，测试事物是否回滚
     @GetMapping("list")
     public void insertList() {
         List<User> list = new ArrayList<>();

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>springboot-文件上传</title>
+</head>
+<body>
+<h3>单文件上传</h3>
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file"><br>
+    <input type="submit" value="提交">
+</form>
+<hr>
+<h3>多文件上传</h3>
+<form method="post" action="/uploadMore" enctype="multipart/form-data">
+    <input type="file" name="file" multiple="multiple"><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
