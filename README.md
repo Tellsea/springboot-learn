@@ -20,6 +20,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |  springboot-quartz  |  SpringBoot集成Quartz动态定时任务  |
 |  springboot-rabbitmq  |  SpringBoot整合RabbitMQ实现五种消息模型  |
 |  springboot-redis  |  redis 搭建缓存管理系统  |
+|  springboot-security  |  SpringBoot 整合 SpringSecurity 实现授权，认证，定制页面  |
 |  springboot-shiro  |  基于 shiro 实现授权登录  |
 |  springboot-sms  |  基于阿里云短信服务实现发送短信业务，以及redis实现验证码一分钟过期  |
 |  springboot-swagger2  |  使用swagger2搭建基于restful风格接口的API文档  |
