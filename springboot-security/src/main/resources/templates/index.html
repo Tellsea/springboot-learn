@@ -1,0 +1,31 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBoot 整合 SpringSecurity</title>
+</head>
+<body>
+<h2 align="center">SpringBoot 整合 SpringSecurity 实现登录、授权案例</h2>
+<div sec:authorize="!isAuthenticated()">
+    <h4 align="center">游客您好，<a th:href="@{/login}">请登录</a></h4>
+</div>
+<div sec:authorize="isAuthenticated()">
+    <h4><span sec:authentication="name"></span>，您拥有的角色：<span sec:authentication="principal.authorities"></span></h4>
+    <form th:action="@{/logout}" method="post">
+        <input type="submit" value="注销"/>
+    </form>
+</div>
+<hr>
+<ul>
+    <div sec:authorize="hasRole('VIP1')">
+        <li><a th:href="@{/level1}">VIP1，可以访问</a></li>
+    </div>
+    <div sec:authorize="hasRole('VIP2')">
+        <li><a th:href="@{/level2}">VIP2，可以访问</a></li>
+    </div>
+    <div sec:authorize="hasRole('VIP3')">
+        <li><a th:href="@{/level3}">VIP3，可以访问</a></li>
+    </div>
+</ul>
+</body>
+</html>
