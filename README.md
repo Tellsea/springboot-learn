@@ -1,8 +1,10 @@
-## springboot 学习
+# springboot 学习
+
+支持作者就star一下，谢谢 🎉🎉
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
-## 模块概要
+# 模块概要
 
 |模块名称| 相关功能说明 |
 |:--|:--|
@@ -28,7 +30,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |  springboot-thymeleaf  |  springboot官方推荐使用thymeleaf作为模板引擎  |
 |  springboot-websocket  |  基于websocket实现群聊，点对点聊天  |
 
-## 基础框架
+# 基础框架
 
 基础框架：springboot 2.1.3.RELEASE
 
@@ -40,7 +42,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 
 数据库：MySQL 5.7
 
-## 注意事项
+# 注意事项
 
 每次学习前请先使用git更新项目，避免产生只是新旧代码问题。
 
@@ -50,6 +52,6 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190417200257956.jpg)
 
-## 交流学习
+# 交流学习
 
 QQ群：957406675
