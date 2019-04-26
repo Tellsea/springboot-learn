@@ -1,6 +1,6 @@
 # SpringBoot整合SpringSecurity
 
-支持作者就star一下✔
+支持作者就star一下 🎉🎉
 
 Spring Security是一个功能强大且可高度自定义的身份验证和访问控制框架。它是保护基于Spring的应用程序的事实标准。
 
