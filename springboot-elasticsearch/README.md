@@ -7,6 +7,7 @@ ElasticSearch是一个基于Lucene的搜索服务器。它提供了一个分布�
 Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。
 
 **安装相关软件**
+
 | 软件名称 | 软件版本 | 下载地址 |
 |:--|:--|:--|
 | Elasticsearch | 6.2.4 |[elasticsearch官网下载](https://www.elastic.co/cn/downloads/past-releases)  |
