@@ -26,7 +26,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootEsApplicationTests {
+public class SpringbootElasticsearchApplicationTests {
 
     @Autowired
     private ElasticsearchTemplate elasticsearchTemplate;

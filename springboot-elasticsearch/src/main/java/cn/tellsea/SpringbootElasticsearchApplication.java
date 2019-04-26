@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootEsApplication {
+public class SpringbootElasticsearchApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootEsApplication.class, args);
+        SpringApplication.run(SpringbootElasticsearchApplication.class, args);
     }
 
 }
