@@ -224,5 +224,6 @@ server {
 发现请求速度得到了极大提升，因为访问的是`HTML`的静态页面了。
 
 ## 相关链接
-- [示例源码：springboot-thymeleaf-static](https://github.com/Tellsea/springboot-learn/tree/master/springboot-thymeleaf-static "实例源码")
+- [CSDN:SpringBoot 使用 Thymeleaf 实现页面静态化](https://blog.csdn.net/qq_38762237/article/details/89948842)
+- [示例源码GitHub：springboot-thymeleaf-static](https://github.com/Tellsea/springboot-learn/tree/master/springboot-thymeleaf-static "实例源码")
 - [Thymeleaf官方文档-Documentation](https://www.thymeleaf.org/documentation.html "Thymeleaf官方文档-Documentation")
