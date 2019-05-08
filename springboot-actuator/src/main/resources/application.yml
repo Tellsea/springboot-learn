@@ -1,11 +1,18 @@
+
 management:
   server:
+    #actuator端口
     port: 9001
   endpoints:
     web:
+      #修改访问路径  2.0之前默认是/   2.0默认是 /actuator  可以通过这个属性值修改
       base-path: /actuator
       exposure:
+        #开放所有页面节点  默认只开启了health、info两个节点
         include: "*"
   endpoint:
     health:
+      #显示健康具体信息  默认不会显示详细信息
       show-details: always
+server:
+  port: 8081
