@@ -1,34 +1,8 @@
-# SpringBoot 工具箱
+# SpringBoot 学习案例
 
 支持作者就star一下，谢谢 🎉🎉
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
-
-**模块概要**
-
-|模块名称| 相关功能说明 |
-|:--|:--|
-|  springboot-actuator  |  基于actuator执行器实现应用监控  |
-|  springboot-aop-log  |  基于AspectJ搭建日志管理系统  |
-|  springboot-easypoi  |  基于Easypoi实现导出和导入Excel数据表  |
-|  springboot-druid  |  Druid能够提供强大的监控和扩展功能  |
-|  springboot-ehcache  |  springboot整合高性能存框架EhCache  |
-|  springboot-email  |  集成 Java 种发送邮件的方式  |
-|  springboot-global  |  搭建全局异常处理、公共返回类，事物回滚机制基础  |
-|  springboot-jpa  |  基于 spring data jpa 实现crud、分页查询、自定义方法查询  |
-|  springboot-jwt-rsa  |  基于jwt与rsa分布式授权功能、注册、登录、鉴权  |
-|  springboot-mybatis  |  基于 mybatis 通用 Mapper 实现 crud、分页查询、自定义方法查询  |
-|  springboot-qiniu  |  七牛云存储空间中上传文件、删除文件  |
-|  springboot-quartz  |  SpringBoot集成Quartz动态定时任务  |
-|  springboot-rabbitmq  |  SpringBoot整合RabbitMQ实现五种消息模型  |
-|  springboot-redis  |  redis 搭建缓存管理系统  |
-|  springboot-security  |  SpringBoot 整合 SpringSecurity 实现授权，认证，定制页面  |
-|  springboot-shiro  |  基于 shiro 实现授权登录  |
-|  springboot-sms  |  基于阿里云短信服务实现发送短信业务，以及redis实现验证码一分钟过期  |
-|  springboot-swagger2  |  使用swagger2搭建基于restful风格接口的API文档  |
-|  springboot-task  |  基于spring task实现任务调度（定时器）  |
-|  springboot-thymeleaf  |  springboot官方推荐使用thymeleaf作为模板引擎  |
-|  springboot-websocket  |  基于websocket实现群聊，点对点聊天  |
 
 # 基础框架
 
@@ -41,6 +15,69 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 依赖工具：apache-maven-3.6.0
 
 数据库：MySQL 5.7
+
+# SpringBoot 基础
+
+源码地址Github：https://github.com/Tellsea/springboot-learn
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 入门案例 | | |
+| SpringBoot 配置 JSP 模板引擎 |  |  |
+| SpringBoot 配置 Thymeleaf 模板引擎 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-thymeleaf) |
+| SpringBoot 搭建全局异常处理 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-global)  |
+| SpringBoot 配置 Druid 连接池 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-druid)  |
+| SpringBoot 配置 AOP 切面记录日志 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-aop-log)  |
+| SpringBoot 配置 Actuator 监控 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-actuator)  |
+| SpringBoot 配置 Swagger2 实现 restfull风格 API 文档 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-swagger2)  |
+| SpringBoot 配置 Thymeleaf 页面静态化 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-thymeleaf-static) |
+
+# SpringBoot 整合
+
+### 持久层
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 Mybatis | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-mybatis)|
+| SpringBoot 整合 SpringData JPA | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-jpa)|
+
+### 定时器
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 Task 定时器 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-task)|
+| SpringBoot 整合 Quartz 任务调度 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-quartz)|
+
+### 缓存
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 Ehcache 高性能缓存 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-ehcache)|
+| SpringBoot 整合 Redis 缓存管理 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-redis)|
+
+### 权限
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 Shiro 权限管理 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-shiro)|
+| SpringBoot 整合 SpringSecurity 权限管理 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-security)|
+| SpringBoot 整合 JWT + RSA 分布式授权 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-jwt-rsa)|
+
+### 邮件短信
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 Email 发送邮件 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-email)|
+| SpringBoot 整合 SMS 阿里短信服务 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-sms)|
+
+### 中间件
+
+| 名称 | 博文地址 | 源码地址 |
+|:--|:--|:--|
+| SpringBoot 整合 七牛云对象存储 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-qiniu)|
+| SpringBoot 整合 Easypoi 打印报表 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-easypoi)|
+| SpringBoot 整合 RabbitMQ 消息中间件 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-rabbitmq)|
+| SpringBoot 整合 WebSocket 聊天案例 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-websocket)|
 
 # 注意事项
 
