@@ -30,28 +30,28 @@ public class ThymeleafServiceImpl implements ThymeleafService {
         return map;
     }
 
-/**
- * 创建html页面
- *
- * @param spuId
- * @throws Exception
- */
-public void createHtml(Long spuId) {
-    // 上下文
-    Context context = new Context();
-    context.setVariables(loadModel(spuId));
-    // 输出流
-    File dest = new File(destPath, spuId + ".html");
-    if (dest.exists()) {
-        dest.delete();
+    /**
+     * 创建html页面
+     *
+     * @param spuId
+     * @throws Exception
+     */
+    public void createHtml(Long spuId) {
+        // 上下文
+        Context context = new Context();
+        context.setVariables(loadModel(spuId));
+        // 输出流
+        File dest = new File(destPath, spuId + ".html");
+        if (dest.exists()) {
+            dest.delete();
+        }
+        try (PrintWriter writer = new PrintWriter(dest, "UTF-8")) {
+            // 生成html
+            templateEngine.process("id", context, writer);
+        } catch (Exception e) {
+            log.error("[静态页服务]：生成静态页异常", e);
+        }
     }
-    try (PrintWriter writer = new PrintWriter(dest, "UTF-8")) {
-        // 生成html
-        templateEngine.process("id", context, writer);
-    } catch (Exception e) {
-        log.error("[静态页服务]：生成静态页异常", e);
-    }
-}
 
     public void deleteHtml(Long id) {
         // 输出流
