@@ -1,4 +1,4 @@
-# SpringBoot 学习案例
+# SpringBoot
 
 支持作者就star一下，谢谢 🎉🎉
 
