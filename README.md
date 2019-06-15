@@ -39,6 +39,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 |:--|:--|:--|
 | SpringBoot 整合 Mybatis | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-mybatis)|
 | SpringBoot 整合 SpringData JPA | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-jpa)|
+| SpringBoot 整合 JDBC Templete | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-jdbc-templete)|
 
 ### 定时器
 
