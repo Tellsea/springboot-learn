@@ -4,7 +4,7 @@
 
 springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工程之间互不干涉，clone之后可以更改一下maven的配置即可。
 
-# 基础框架
+## 基础框架
 
 基础框架：springboot 2.1.3.RELEASE
 
@@ -16,9 +16,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 
 数据库：MySQL 5.7
 
-# 模块概述
-
-源码地址Github：https://github.com/Tellsea/springboot-learn
+## 基础篇
 
 | 名称 | 博文地址 | 源码地址 |
 |:--|:--|:--|
@@ -31,7 +29,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 | SpringBoot 配置 Swagger2 实现 restfull风格 API 文档 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-swagger2)  |
 | SpringBoot 配置 Thymeleaf 页面静态化 |  | [源码](https://github.com/Tellsea/springboot-learn/tree/master/springboot-thymeleaf-static) |
 
-# SpringBoot 整合
+## 整合篇
 
 ### 持久层
 
@@ -78,8 +76,9 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 | SpringBoot 整合 Easypoi 打印报表 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-easypoi)|
 | SpringBoot 整合 RabbitMQ 消息中间件 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-rabbitmq)|
 | SpringBoot 整合 WebSocket 聊天案例 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-websocket)|
+| SpringBoot 使用 Echars 实现数据可视化 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-echarts)|
 
-# 注意事项
+## 注意事项
 
 每次学习前请先使用git更新项目，避免产生只是新旧代码问题。
 
@@ -87,6 +86,6 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 
 **我不管，看了就 Star**
 
-# 交流学习
+## 交流学习
 ![在这里插入图片描述](https://github.com/Tellsea/springboot-learn/blob/master/doc/images/emoticon1.jpg)
 ![交流学习](https://github.com/Tellsea/springboot-learn/blob/master/doc/images/qq-group.png)
