@@ -34,7 +34,7 @@ public class IndexController {
         return "product";
     }
 
-    // 提供数据的接口
+    // 提供数据的接口用于显示
     @GetMapping("/list")
     @ResponseBody
     public List<Product> productList() {
