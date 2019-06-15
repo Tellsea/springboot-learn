@@ -1,4 +1,4 @@
-# SpringBoot 整合 JDBC Templete 实现 CRUD 案例
+# SpringBoot 整合 JDBC Templete
 
 今天是 2019/6/15，写这个案例的主要目的是，因为我是应届生，第一天上班拿到的项目采用的就是 SpringMVC + JDBC Templete + Bootstrap + easyUI ，通过前面的学习，我们知道还有更多，更好的框架来进行持久层的开发，例如Hibernate，SpringData JPA ，Mybatis 等，但是因为工作需要，我还是决定自己动手写一个SpringBoot整合JDBC Templete的案例。俗话说的好，技多不压身！
 
