@@ -2,6 +2,7 @@ package cn.tellsea.entity;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
@@ -78,4 +79,6 @@ public class UserInfo {
     @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date createTime;
 
+//    @TableField(exist = false)
+//    private String roleName;
 }
