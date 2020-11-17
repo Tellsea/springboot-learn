@@ -76,7 +76,7 @@ springboot-learn 这个工程为IDEA创建的Empty Project工程，其余子工�
 | SpringBoot 整合 Easypoi 打印报表 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-easypoi)|
 | SpringBoot 整合 RabbitMQ 消息中间件 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-rabbitmq)|
 | SpringBoot 整合 WebSocket 聊天案例 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-websocket)|
-| SpringBoot 使用 Echars 实现数据可视化 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-echarts)|
+| SpringBoot 使用 Echarts 实现数据可视化 | 链接 | [链接](https://github.com/Tellsea/springboot-learn/tree/master/springboot-echarts)|
 
 ## 注意事项
 
