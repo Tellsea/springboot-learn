@@ -61,7 +61,7 @@
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
-            <version>1.3.2</version>
+            <version>1.7.1</version>
         </dependency>
 
         <!-- alibaba的druid数据库连接池 -->
